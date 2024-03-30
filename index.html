@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Taufik<span>Akbar</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#workExperience" class="nav-item">Work Experience</a>
+        <a href="#project" class="nav-item">Project</a>
+        <a
+          href="mailto:taufikakbar421@gmail.com?subject=For%20Business%20Inquiries&body=Halo%20Taufik%2C"
+          class="nav-item"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, i'm <span>Taufik Akbar</span></h3>
+        <h2 class="text-animation"></h2>
+        <p>
+          Horas! I'm a Fresh Graduate in Information Systems from Mikroskil
+          University, with a keen interest in Product Design and a particular
+          focus on User Experience (UX) Design and future technologies. I build
+          products that create delightful experiences for users through design.
+          Let's embark on a journey to shape the future of user-centered design
+          together!
+        </p>
+
+        <div class="social-icons">
+          <a href="https://dribbble.com/taufikakbaar_"
+            ><i class="bx bxl-dribbble"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/taufikakbaar/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/mtlaee"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="btn-group">
+          <a
+            href="https://drive.google.com/drive/folders/1sdhLZshgrwyLaqO_rNbgauezq34OQ9Wp?usp=sharing"
+            class="btn"
+            >Donwload CV</a
+          >
+          <a
+            href="mailto:taufikakbar421@gmail.com?subject=For%20Business%20Inquiries&body=Halo%20Taufik%2C"
+            class="btn"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="asset/image/bar.png" alt="" />
+      </div>
+    </section>
+
+    <section class="workExperience" id="workExperience">
+      <h2 class="heading">Work Experience</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <img src="asset/image/nutech.png" alt="" />
+          </div>
+          <div class="timeline-date">October 2023 - January 2024</div>
+          <div class="timeline-content">
+            <h3>PT Nutech Integrasi</h3>
+            <h4>IT Engineer On Site</h4>
+            <p>
+              Maintenance and upkeep of IT devices at KAI Bandara such as Gates,
+              reporting monthly maintenance progress to the IT center.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <img src="asset/image/nusanet.png" alt="" style="margin-top: 4px" />
+          </div>
+          <div class="timeline-date">February 2024 - Present</div>
+          <div class="timeline-content">
+            <h3>PT Media Antar Nusa</h3>
+            <h4>Product Designer (Intern)</h4>
+            <p>
+              Redesigning and creating mock-ups and prototypes for Nusa Cloud.
+            </p>
+            <p>
+              Designing and create mock-ups and prototypes a speed tester
+              application for Nusanet server testing.
+            </p>
+            <p>
+              Participating in the design of the Nusa Contact website where I
+              designed chat features and context for chat bubbles such as reply,
+              delete.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <h2 class="heading">Project</h2>
+      <div class="project-container">
+        <div class="project-box">
+          <div class="project-info">
+            <img src="asset/image/nusacloud.jpg" alt="" />
+            <h4>Web Design For Nusa.id Cloud Mail</h4>
+            <a href="projectNusacloud.html"
+              ><i class="bx bx-book"></i>View Study Case</a
+            >
+          </div>
+        </div>
+
+        <div class="project-box">
+          <div class="project-info">
+            <img src="asset/image/nusacontact.jpg" alt="" />
+            <h4>Web Design For Nusacontact</h4>
+            <a href="projectNusacontact.html"
+              ><i class="bx bx-book"></i>View Study Case</a
+            >
+          </div>
+        </div>
+
+        <div class="project-box">
+          <div class="project-info">
+            <img src="asset/image/nusaspeed.jpg" alt="" />
+            <h4>Speed tester Mobile Application for Nusanet server testing</h4>
+            <a href="projectNusaspeed.html"
+              ><i class="bx bx-book"></i>View Study Case</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".text-animation", {
+        strings: ["Product Designer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+        showCursor: false,
+      });
+    </script>
+  </body>
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Get in Touch</h3>
+      <p>
+        For business inquiries, please email to
+        <a href="#">taufikakbar421@gmail.com</a>
+      </p>
+      <!-- Ganti dengan alamat email Anda -->
+      <div class="social-icons">
+        <a href="https://wa.me/62895343240377"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
+        <a
+          href="mailto:taufikakbar421@gmail.com?subject=For%20Business%20Inquiries&body=Halo%20Taufik%2C"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/taufikakbaar/"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+      </div>
+    </div>
+  </footer>
+</html>
